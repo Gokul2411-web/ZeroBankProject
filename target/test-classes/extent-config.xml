@@ -1,0 +1,35 @@
+<extentreports>
+    <configuration>
+        <!-- Report Theme (Options: standard, dark) -->
+        <theme>dark</theme>
+        
+        <!-- Document Encoding -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- Protocol for scripts & styles -->
+        <protocol>http</protocol>
+        
+        <!-- Report Document Title -->
+        <documentTitle>Extent Reports</documentTitle>
+        
+        <!-- Report Name (Displayed in UI) -->
+        <reportName>Automation Report</reportName>
+        
+        <!-- Chart location in the test view (Options: top, bottom) -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+        
+        <!-- Custom JavaScript -->
+        <scripts>
+        <![CDATA[
+            $(document).ready(function() { });
+        ]]>
+        </scripts>
+        
+        <!-- Custom Styles -->
+        <styles>
+        <![CDATA[
+            /* Add Custom Styles Here */
+        ]]>
+        </styles>
+    </configuration>
+</extentreports>
