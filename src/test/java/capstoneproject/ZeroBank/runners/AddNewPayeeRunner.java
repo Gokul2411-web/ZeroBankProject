@@ -1,11 +1,10 @@
 package capstoneproject.ZeroBank.runners;
 
-import org.junit.runner.RunWith;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 
-@RunWith(Cucumber.class)
+
 @CucumberOptions(features="src/test/resources/features/addnewpayee.feature",glue= {"capstoneproject.ZeroBank.stepdefinitions"},
 plugin = {
         "pretty",
@@ -16,6 +15,6 @@ plugin = {
     monochrome = true,
     dryRun = false
 )
-public class AddNewPayeeRunner {
+public class AddNewPayeeRunner extends AbstractTestNGCucumberTests  {
 	
 }

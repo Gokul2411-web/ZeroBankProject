@@ -5,8 +5,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -26,7 +24,7 @@ public class LogoutStepDefinition {
 	WebDriver driver;
 	AccountSummaryPage accountSummaryPage;
 	LogoutPage logoutPage;
-	private static final Logger logger = LoggerFactory.getLogger(OnlineStatementStepDefinition.class);
+
 	static ExtentReports extent;
 	static ExtentTest test;
 	static Properties properties;
@@ -61,8 +59,8 @@ public class LogoutStepDefinition {
 
 	@Before
 	public void setUp() {
-		BaseTest.setup("chrome");
-		driver = BaseTest.driver;
+		BaseTest.setup();
+		driver = BaseTest.getDriver();
 		accountSummaryPage = new AccountSummaryPage(driver);
 		logoutPage = new LogoutPage(driver);
 	}
@@ -76,7 +74,7 @@ public class LogoutStepDefinition {
 
 	@When("Verify the dashboard loads successfully")
 	public void verify_the_dashboard_loads_successfully() {
-	  boolean status = logoutPage.checkDashBoard().isDisplayed();
+	  boolean status = logoutPage.checkDashBoard();
 	  Assert.assertTrue(status,"Dashboard did not load successfully!");
 	}
 

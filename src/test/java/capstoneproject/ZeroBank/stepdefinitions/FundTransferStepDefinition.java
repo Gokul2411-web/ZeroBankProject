@@ -62,8 +62,8 @@ public class FundTransferStepDefinition {
 
 	@Before
 	public void setUp() {
-		BaseTest.setup("chrome");
-		driver = BaseTest.driver;
+		BaseTest.setup();
+		driver = BaseTest.getDriver();
 		accountSummaryPage = new AccountSummaryPage(driver);
 		fundTransferPage = new FundTransferPage(driver);
 	}

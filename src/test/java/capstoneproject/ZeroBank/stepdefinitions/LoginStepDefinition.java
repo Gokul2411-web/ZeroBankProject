@@ -56,8 +56,8 @@ public class LoginStepDefinition {
 	}
 	@Before
     public void setUp() {
-        BaseTest.setup("chrome");
-        driver = BaseTest.driver;
+        BaseTest.setup();
+        driver = BaseTest.getDriver();
         loginPage = new LoginPage(driver);
     }
 

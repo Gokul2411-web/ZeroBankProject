@@ -1,11 +1,9 @@
 package capstoneproject.ZeroBank.runners;
 
-import org.junit.runner.RunWith;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 
-@RunWith(Cucumber.class)
 @CucumberOptions(
     features = "src/test/resources/features/fundtransfer.feature",
     glue = {"capstoneproject.ZeroBank.stepdefinitions"},
@@ -17,6 +15,6 @@ import io.cucumber.junit.CucumberOptions;
         },
         monochrome = true,
         dryRun = false)
-public class FundTransferRunner {
+public class FundTransferRunner extends AbstractTestNGCucumberTests {
 
 }

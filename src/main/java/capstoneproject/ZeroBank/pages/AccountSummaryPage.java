@@ -28,11 +28,12 @@ public class AccountSummaryPage {
         this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
     
-    public void login(String username,String password) {
+    public void login(String username,String password){
     	LoginPage loginPage = new LoginPage(driver);
     	loginPage.enterUsername(username);
     	loginPage.enterPassword(password);
     	loginPage.clickLogin();
+    	wait.until(ExpectedConditions.titleContains("zero.webappsecurity.com"));
 		String title = driver.getTitle();
 		if(title.contains("zero.webappsecurity.com")) {
 			driver.navigate().back();
@@ -76,6 +77,7 @@ public class AccountSummaryPage {
                     logger.warn("Invalid account type: " + accountType);
                     return false;
             }
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
             boolean displayed = driver.findElement(locator).isDisplayed();
             logger.info(accountType + " is displayed: " + displayed);
             return displayed;

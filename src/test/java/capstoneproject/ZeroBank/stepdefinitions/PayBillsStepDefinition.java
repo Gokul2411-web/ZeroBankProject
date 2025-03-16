@@ -59,8 +59,8 @@ public class PayBillsStepDefinition {
 
 	@Before
 	public void setUp() {
-		BaseTest.setup("chrome");
-		driver = BaseTest.driver;
+		BaseTest.setup();
+		driver = BaseTest.getDriver();
 		accountSummaryPage = new AccountSummaryPage(driver);
 		payBillsPage = new PayBillsPage(driver);
 	}
@@ -70,7 +70,6 @@ public class PayBillsStepDefinition {
 		driver.get("http://zero.webappsecurity.com/login.html");
 		accountSummaryPage.login("username", "password");
 		accountSummaryPage.clickOnlineBanking();
-		accountSummaryPage.clickAccountSummary();
 		payBillsPage.clickPayBillsTab();
 	}
 	

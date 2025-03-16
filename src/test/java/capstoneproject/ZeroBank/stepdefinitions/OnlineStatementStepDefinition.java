@@ -61,8 +61,8 @@ public class OnlineStatementStepDefinition {
 
 	@Before
 	public void setUp() {
-		BaseTest.setup("chrome");
-		driver = BaseTest.driver;
+		BaseTest.setup();
+		driver = BaseTest.getDriver();
 		accountSummaryPage = new AccountSummaryPage(driver);
 		onlineStatementPage = new OnlineStatementPage(driver);
 	}

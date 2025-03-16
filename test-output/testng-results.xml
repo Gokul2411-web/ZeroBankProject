@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-16T23:57:43 IST" name="Cucumber Test Suite" finished-at="2025-03-17T00:00:54 IST" duration-ms="191012">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AccountSummaryRunner@1bb266b3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AddNewPayeeRunner@306cf3ea]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.FundTransferRunner@2beee7ff]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@152aa092]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LogoutRunner@e1de817]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.OnlineStatementRunner@5939a379]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5136d012]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AccountSummaryRunner@2dde1bff]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AddNewPayeeRunner@15bbf42f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.FundTransferRunner@550ee7e5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@10163d6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LogoutRunner@48974e45]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.OnlineStatementRunner@247d8ae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5f9b2141]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-16T23:57:43 IST" name="Firefox" finished-at="2025-03-17T00:00:53 IST" duration-ms="190274">
+      <class name="capstoneproject.ZeroBank.runners.PayBillsRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5f9b2141]" started-at="2025-03-16T23:59:33 IST" name="setUpClass" finished-at="2025-03-16T23:59:33 IST" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4310d43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5f9b2141]" started-at="2025-03-16T23:59:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:59:45 IST" duration-ms="11968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Bill Payment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pay Bills"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5f9b2141]" started-at="2025-03-16T23:59:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:59:57 IST" duration-ms="12518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Schedule a Bill Payment for a Future Date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pay Bills"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5f9b2141]" started-at="2025-03-16T23:59:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T00:00:10 IST" duration-ms="12571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pay Bills Without Entering Amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pay Bills"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5f9b2141]" started-at="2025-03-17T00:00:10 IST" name="tearDownClass" finished-at="2025-03-17T00:00:12 IST" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.PayBillsRunner -->
+      <class name="capstoneproject.ZeroBank.runners.AccountSummaryRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.AccountSummaryRunner@2dde1bff]" started-at="2025-03-16T23:58:27 IST" name="setUpClass" finished-at="2025-03-16T23:58:27 IST" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4310d43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AccountSummaryRunner@2dde1bff]" started-at="2025-03-16T23:58:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:58:39 IST" duration-ms="11878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Account Summary Page Loads Correctly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Summary Module Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AccountSummaryRunner@2dde1bff]" started-at="2025-03-16T23:58:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:58:50 IST" duration-ms="11214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Account Types"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Summary Module Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.AccountSummaryRunner@2dde1bff]" started-at="2025-03-16T23:58:50 IST" name="tearDownClass" finished-at="2025-03-16T23:58:52 IST" duration-ms="1329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.AccountSummaryRunner -->
+      <class name="capstoneproject.ZeroBank.runners.FundTransferRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.FundTransferRunner@550ee7e5]" started-at="2025-03-16T23:59:19 IST" name="setUpClass" finished-at="2025-03-16T23:59:19 IST" duration-ms="48" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4310d43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.FundTransferRunner@550ee7e5]" started-at="2025-03-16T23:59:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:59:32 IST" duration-ms="13123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Fund Transfer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.FundTransferRunner@550ee7e5]" started-at="2025-03-16T23:59:32 IST" name="tearDownClass" finished-at="2025-03-16T23:59:33 IST" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.FundTransferRunner -->
+      <class name="capstoneproject.ZeroBank.runners.OnlineStatementRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.OnlineStatementRunner@247d8ae]" started-at="2025-03-17T00:00:12 IST" name="setUpClass" finished-at="2025-03-17T00:00:12 IST" duration-ms="48" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4310d43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.OnlineStatementRunner@247d8ae]" started-at="2025-03-17T00:00:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T00:00:29 IST" duration-ms="17740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Download Account Statement"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Statements & Documents Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.OnlineStatementRunner@247d8ae]" started-at="2025-03-17T00:00:29 IST" name="tearDownClass" finished-at="2025-03-17T00:00:31 IST" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.OnlineStatementRunner -->
+      <class name="capstoneproject.ZeroBank.runners.LogoutRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.LogoutRunner@48974e45]" started-at="2025-03-17T00:00:31 IST" name="setUpClass" finished-at="2025-03-17T00:00:31 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4310d43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LogoutRunner@48974e45]" started-at="2025-03-17T00:00:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T00:00:42 IST" duration-ms="11080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logout Successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LogoutRunner@48974e45]" started-at="2025-03-17T00:00:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T00:00:52 IST" duration-ms="10188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Session Expiry After Logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.LogoutRunner@48974e45]" started-at="2025-03-17T00:00:52 IST" name="tearDownClass" finished-at="2025-03-17T00:00:53 IST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.LogoutRunner -->
+      <class name="capstoneproject.ZeroBank.runners.AddNewPayeeRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.AddNewPayeeRunner@15bbf42f]" started-at="2025-03-16T23:58:52 IST" name="setUpClass" finished-at="2025-03-16T23:58:52 IST" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4310d43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AddNewPayeeRunner@15bbf42f]" started-at="2025-03-16T23:58:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:59:04 IST" duration-ms="12608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully Adding a New Payee"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add a New Payee Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AddNewPayeeRunner@15bbf42f]" started-at="2025-03-16T23:59:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:59:17 IST" duration-ms="12768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Payee with Missing Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add a New Payee Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.AddNewPayeeRunner@15bbf42f]" started-at="2025-03-16T23:59:17 IST" name="tearDownClass" finished-at="2025-03-16T23:59:19 IST" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.AddNewPayeeRunner -->
+      <class name="capstoneproject.ZeroBank.runners.LoginRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@10163d6]" started-at="2025-03-16T23:57:43 IST" name="setUpClass" finished-at="2025-03-16T23:57:45 IST" duration-ms="1511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4310d43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@10163d6]" started-at="2025-03-16T23:57:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:58:01 IST" duration-ms="15975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@10163d6]" started-at="2025-03-16T23:58:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:58:12 IST" duration-ms="11210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@10163d6]" started-at="2025-03-16T23:58:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:58:25 IST" duration-ms="13169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Empty Username & Password Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@10163d6]" started-at="2025-03-16T23:58:25 IST" name="tearDownClass" finished-at="2025-03-16T23:58:27 IST" duration-ms="2182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.LoginRunner -->
+    </test> <!-- Firefox -->
+    <test started-at="2025-03-16T23:57:43 IST" name="Chrome" finished-at="2025-03-17T00:00:54 IST" duration-ms="191012">
+      <class name="capstoneproject.ZeroBank.runners.PayBillsRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5136d012]" started-at="2025-03-16T23:59:33 IST" name="setUpClass" finished-at="2025-03-16T23:59:33 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61001b64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5136d012]" started-at="2025-03-16T23:59:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:59:46 IST" duration-ms="12891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Bill Payment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pay Bills"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5136d012]" started-at="2025-03-16T23:59:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T00:00:00 IST" duration-ms="13687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Schedule a Bill Payment for a Future Date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pay Bills"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5136d012]" started-at="2025-03-17T00:00:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T00:00:12 IST" duration-ms="11916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pay Bills Without Entering Amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pay Bills"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.PayBillsRunner@5136d012]" started-at="2025-03-17T00:00:12 IST" name="tearDownClass" finished-at="2025-03-17T00:00:13 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.PayBillsRunner -->
+      <class name="capstoneproject.ZeroBank.runners.AccountSummaryRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.AccountSummaryRunner@1bb266b3]" started-at="2025-03-16T23:58:27 IST" name="setUpClass" finished-at="2025-03-16T23:58:27 IST" duration-ms="79" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61001b64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AccountSummaryRunner@1bb266b3]" started-at="2025-03-16T23:58:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:58:40 IST" duration-ms="12307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Account Summary Page Loads Correctly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Summary Module Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AccountSummaryRunner@1bb266b3]" started-at="2025-03-16T23:58:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:58:51 IST" duration-ms="11484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Account Types"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Summary Module Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.AccountSummaryRunner@1bb266b3]" started-at="2025-03-16T23:58:51 IST" name="tearDownClass" finished-at="2025-03-16T23:58:52 IST" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.AccountSummaryRunner -->
+      <class name="capstoneproject.ZeroBank.runners.FundTransferRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.FundTransferRunner@2beee7ff]" started-at="2025-03-16T23:59:19 IST" name="setUpClass" finished-at="2025-03-16T23:59:19 IST" duration-ms="42" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61001b64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.FundTransferRunner@2beee7ff]" started-at="2025-03-16T23:59:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:59:33 IST" duration-ms="13695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Fund Transfer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.FundTransferRunner@2beee7ff]" started-at="2025-03-16T23:59:33 IST" name="tearDownClass" finished-at="2025-03-16T23:59:33 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.FundTransferRunner -->
+      <class name="capstoneproject.ZeroBank.runners.OnlineStatementRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.OnlineStatementRunner@5939a379]" started-at="2025-03-17T00:00:13 IST" name="setUpClass" finished-at="2025-03-17T00:00:13 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61001b64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.OnlineStatementRunner@5939a379]" started-at="2025-03-17T00:00:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T00:00:31 IST" duration-ms="18590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Download Account Statement"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Statements & Documents Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.OnlineStatementRunner@5939a379]" started-at="2025-03-17T00:00:31 IST" name="tearDownClass" finished-at="2025-03-17T00:00:32 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.OnlineStatementRunner -->
+      <class name="capstoneproject.ZeroBank.runners.LogoutRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.LogoutRunner@e1de817]" started-at="2025-03-17T00:00:32 IST" name="setUpClass" finished-at="2025-03-17T00:00:32 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61001b64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LogoutRunner@e1de817]" started-at="2025-03-17T00:00:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T00:00:43 IST" duration-ms="10934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logout Successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LogoutRunner@e1de817]" started-at="2025-03-17T00:00:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T00:00:54 IST" duration-ms="10833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Session Expiry After Logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.LogoutRunner@e1de817]" started-at="2025-03-17T00:00:54 IST" name="tearDownClass" finished-at="2025-03-17T00:00:54 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.LogoutRunner -->
+      <class name="capstoneproject.ZeroBank.runners.AddNewPayeeRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.AddNewPayeeRunner@306cf3ea]" started-at="2025-03-16T23:58:52 IST" name="setUpClass" finished-at="2025-03-16T23:58:52 IST" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61001b64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AddNewPayeeRunner@306cf3ea]" started-at="2025-03-16T23:58:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:59:05 IST" duration-ms="12526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully Adding a New Payee"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add a New Payee Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.AddNewPayeeRunner@306cf3ea]" started-at="2025-03-16T23:59:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:59:18 IST" duration-ms="13258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Payee with Missing Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add a New Payee Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.AddNewPayeeRunner@306cf3ea]" started-at="2025-03-16T23:59:18 IST" name="tearDownClass" finished-at="2025-03-16T23:59:19 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.AddNewPayeeRunner -->
+      <class name="capstoneproject.ZeroBank.runners.LoginRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@152aa092]" started-at="2025-03-16T23:57:43 IST" name="setUpClass" finished-at="2025-03-16T23:57:45 IST" duration-ms="1511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61001b64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@152aa092]" started-at="2025-03-16T23:57:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:57:59 IST" duration-ms="14196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@152aa092]" started-at="2025-03-16T23:57:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:58:11 IST" duration-ms="11800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@152aa092]" started-at="2025-03-16T23:58:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T23:58:22 IST" duration-ms="10897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Empty Username & Password Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:capstoneproject.ZeroBank.runners.LoginRunner@152aa092]" started-at="2025-03-16T23:58:22 IST" name="tearDownClass" finished-at="2025-03-16T23:58:27 IST" duration-ms="5629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- capstoneproject.ZeroBank.runners.LoginRunner -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Cucumber Test Suite -->
+</testng-results>
