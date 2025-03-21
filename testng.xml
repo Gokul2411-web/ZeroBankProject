@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Cucumber Test Suite" parallel="tests" >
+	<test name="Chrome">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="capstoneproject.ZeroBank.runners.LoginRunner" />
+			<class
+				name="capstoneproject.ZeroBank.runners.AccountSummaryRunner" />
+			<class
+				name="capstoneproject.ZeroBank.runners.AddNewPayeeRunner" />
+			<class
+				name="capstoneproject.ZeroBank.runners.FundTransferRunner" />
+			<class name="capstoneproject.ZeroBank.runners.PayBillsRunner" />
+			<class
+				name="capstoneproject.ZeroBank.runners.OnlineStatementRunner" />
+			<class name="capstoneproject.ZeroBank.runners.LogoutRunner" />
+		</classes>
+	</test>
+	
+	<test name="Edge">
+	<parameter name="browser" value="edge" />
+		<classes>
+			<class name="capstoneproject.ZeroBank.runners.LoginRunner" />
+			<class
+				name="capstoneproject.ZeroBank.runners.AccountSummaryRunner" />
+			<class
+				name="capstoneproject.ZeroBank.runners.AddNewPayeeRunner" />
+			<class
+				name="capstoneproject.ZeroBank.runners.FundTransferRunner" />
+			<class name="capstoneproject.ZeroBank.runners.PayBillsRunner" />
+			<class
+				name="capstoneproject.ZeroBank.runners.OnlineStatementRunner" />
+			<class name="capstoneproject.ZeroBank.runners.LogoutRunner" />
+		</classes>
+	</test>
+</suite> 
+
+
